@@ -62,7 +62,7 @@ public class Metodos {
             if (boton == bDib) {
                 paint(panel.getGraphics());
             } else {
-                jtNumber.setText(null);
+                jtNumber.setText("0");
                 panel.repaint();
             }
         }
