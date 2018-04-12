@@ -71,6 +71,10 @@ public class Metodos {
             int x = 50;
             int y = 50;
             for (int i = 0; i < Integer.parseInt(jtNumber.getText()); i++) {
+                if (x > 950) {
+                    x = 50;
+                    y = y + 50;
+                }
                 x = x + 50;
                 g.setColor(Color.RED);
                 g.fillOval(x, y, 20, 20);
